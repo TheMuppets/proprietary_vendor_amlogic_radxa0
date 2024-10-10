@@ -5,26 +5,3 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/amlogic/radxa0
 
-PRODUCT_COPY_FILES += \
-    vendor/amlogic/radxa0/proprietary/vendor/bin/hdcp_tx22:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp_tx22 \
-    vendor/amlogic/radxa0/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.4-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.4-service.droidlogic \
-    vendor/amlogic/radxa0/proprietary/vendor/bin/systemcontrol:$(TARGET_COPY_OUT_VENDOR)/bin/systemcontrol \
-    vendor/amlogic/radxa0/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.droidlogic.rc \
-    vendor/amlogic/radxa0/proprietary/vendor/etc/init/systemcontrol.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/systemcontrol.rc \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/android.hardware.graphics.composer@2.1-resources-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.composer@2.1-resources-vendor.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/android.hardware.graphics.composer@2.2-resources-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.composer@2.2-resources-vendor.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/hw/hwcomposer.amlogic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.amlogic.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/libfbc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfbc.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/libmeson_display_adapter_remote.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmeson_display_adapter_remote.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/libmeson_display_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmeson_display_service.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/libpqcontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqcontrol.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/libsystemcontrolservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystemcontrolservice.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/libvideotunnel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideotunnel.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/vendor.amlogic.display.meson_display_ipc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.display.meson_display_ipc@1.0.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/vendor.amlogic.hardware.droidvold@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.droidvold@1.0.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/vendor.amlogic.hardware.systemcontrol@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.systemcontrol@1.0.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/vendor.amlogic.hardware.systemcontrol@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.systemcontrol@1.1.so \
-    vendor/amlogic/radxa0/proprietary/vendor/lib/vendor.amlogic.hardware.tvserver@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.amlogic.hardware.tvserver@1.0.so
-
-PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-service.droidlogic.xml
